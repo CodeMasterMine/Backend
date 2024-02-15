@@ -2,8 +2,8 @@
 // // if it's true then go inside .
 // var num = 20
 
-// if (num % 2 == 0){
-//   console.log("even")  }
+if (num % 2 == 0){
+  console.log("even")  }
 
 
 
@@ -13,14 +13,14 @@
 //  * 
 //  * if not then print else statment */
 
-// var num = 20
+var num = 20
 
-// if (num % 2 == 0){
-//   console.log("even")
-// }
-// else {
-//   console.log("odd")
-// }
+if (num % 2 == 0){
+  console.log("even")
+}
+else {
+  console.log("odd")
+}
 
 
 
@@ -30,20 +30,20 @@
 //  * none of them true then print else statement .
 //  */
 
-// var x = 23
+var x = 23
 
-// if (x == 25){
-//   console.log("first if true ")
-// }
+if (x == 25){
+  console.log("first if true ")
+}
 
-// else if ( x == 23){
-//   console.log("second if is  true ")
+else if ( x == 23){
+  console.log("second if is  true ")
 
-// }
+}
 
-// else {
-//   console.log("none of them is true")
-// }
+else {
+  console.log("none of them is true")
+}
 
 
 
@@ -51,7 +51,7 @@
 
 // // Ternary Operator => if , else
 
-// num % 2 == 0 ? console.log("even ") : console.log("odd")
+num % 2 == 0 ? console.log("even ") : console.log("odd")
 
 
 
@@ -67,23 +67,23 @@
  *  */
 
 
-// var o = 12
+var o = 12
 
-// if ( o == 12){
-//   if(++o == 13){
-//     console.log("true")
-//   }
-// }
+if ( o == 12){
+  if(++o == 13){
+    console.log("true")
+  }
+}
 
-// else {
-//   console.log("False")
-// }
+else {
+  console.log("False")
+}
 
 
 
 
 // Switch 
-
+// is for multiple condition 
 var a = 'box'
 
 switch(a){
@@ -103,3 +103,7 @@ switch(a){
      console.log('mouse') 
   break;
 }
+
+
+
+
