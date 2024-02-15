@@ -7,7 +7,7 @@
  */
 
 
-let name = 'vishal'
+// let name = 'vishal'
 
 let city = " somewhere in the world"
 
@@ -29,10 +29,10 @@ console.log(full)
 
 
 // // uppercase 
-// console.log(full.toUppercase())
+console.log(full.toUppercase())
 
 // //Character at any index 
-// console.log(name.charAt(3))
+console.log(name.charAt(3))
 
 //slicing
 console.log(full)
@@ -44,3 +44,12 @@ console.log(full.slice(-5,-1))
 
 //indexOf
 console.log(full.indexOf('e'))
+
+
+//trim 
+let word = 'make'
+console.log(word.trim())
+
+//split
+let name = 'vishal yadav'
+console.log(name.split(" "))
